@@ -4,7 +4,7 @@
 ## 1. makeCacheMatrix: creates a special "matrix" object that can cache its inverse.
 ##    it comes out an environment with 4 functions and 2 objects x & inv
 ##    this is the preparation for the next cacheSolve function, 
-##    and the station where we cache the data I think...?
+##    and the station where we cache the data
 
 makeCacheMatrix <- function(x = matrix()){
       inv <- NULL
